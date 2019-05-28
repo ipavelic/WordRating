@@ -23,7 +23,7 @@ class GitHubSearcher implements SearchInterface
     private function exec_gitHub_req($word, $q_add): int
     {
         $url = "https://api.github.com/search/issues?q=" . $word . "+q=" . $q_add;
-        $headers = ['User-Agent: ipavelic'];
+        $headers = ['User-Agent: Chromium'];
 
         $handle = curl_init();
         curl_setopt($handle, CURLOPT_URL, $url);

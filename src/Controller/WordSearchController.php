@@ -15,19 +15,17 @@ class WordSearchController extends AbstractController
     {
         $this->entityManager = $entityManager;
         $this->searcher = $searcher;
-
     }
 
     /**
      * @Route("/score/", name="term_score")
      */
-    public function getScore(Request $request):JsonResponse
+    public function getScore(Request $request): JsonResponse
     {
         $word = $request->query->get('term');
         $db_reader = new DatabaseReader();
         $repository = $this->getDoctrine()->getRepository(Words::class);
         $res = $db_reader->search_word_db($word, $repository);
-        //$searcher = new GitHubSearcher();
 
         if (!$res) {
             $positive = $this->searcher->getRocks($word);
@@ -35,35 +33,31 @@ class WordSearchController extends AbstractController
             $request = array("word" => $word, "positive" => $positive, "negative" => $negative);
             $write_db = new DatabaseWriter();
             $write_db->insert_word($request, $this->entityManager);
-
         } else {
             $positive = $res->getPositive();
             $negative = $res->getNegative();
         }
 
-        $score = 0;
+        $score = $this->calculate_score($positive, $negative);
 
-        $total = $positive + $negative;
-        if ($total){
-            $score = $this->calculate_score($positive, $total);
-        }
-
-        return $this->write_output($total, $word, $score);
+        return $this->write_output($word, $score);
     }
 
-    private function write_output($total, $word, $score) : JsonResponse
+    private function calculate_score($positive, $negative): float
     {
-        if ($total) {
+        $score = 0;
+        if ($positive + $negative > 0) {
+            $score = (float)($positive / ($positive + $negative) * 10);
+        }
+        return $score;
+    }
+
+    private function write_output($word, $score): JsonResponse
+    {
+        if ($score) {
             return JsonResponse::create(array('term' => $word, 'score' => $score));
         } else {
             return JsonResponse::create(array('message' => 'No results for word ' . $word));
         }
     }
-
-    private function calculate_score($positive, $total) :float {
-        $score = (float)($positive / ($total) *10);
-        return $score;
-
-    }
-
 }
