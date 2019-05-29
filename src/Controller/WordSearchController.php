@@ -47,7 +47,7 @@ class WordSearchController extends AbstractController
     {
         $score = 0;
         if ($positive + $negative > 0) {
-            $score = (float)($positive / ($positive + $negative) * 10);
+            $score = number_format((float)($positive / ($positive + $negative) * 10), 2);
         }
         return $score;
     }
