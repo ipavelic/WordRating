@@ -9,7 +9,7 @@ env:
 
 install:
 - composer install
-- cp .env.local .env
+- cp .env.dist .env
 - php bin/console doctrine:database:create --env=test
 - php bin/console doctrine:schema:create --env=test
 
