@@ -12,27 +12,27 @@ class Words
     /**
      * @ORM\Id()
      * @ORM\GeneratedValue()
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="id", type="integer")
      */
     private $id;
 
     /**
-     * @ORM\Column(type="text")
+     * @ORM\Column(name="word", type="text")
      */
     private $word;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="positive", type="integer")
      */
     private $positive;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="negative", type="integer")
      */
     private $negative;
 
     /**
-     * @ORM\Column(type="integer")
+     * @ORM\Column(name="source", type="integer")
      */
     private $source;
 

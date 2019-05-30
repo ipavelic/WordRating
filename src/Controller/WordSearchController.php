@@ -24,7 +24,7 @@ class WordSearchController extends AbstractController
     {
         $word = $request->query->get('term');
         $db_reader = new DatabaseReader();
-        $repository = $this->getDoctrine()->getRepository(Words::class);
+        $repository = $this->entityManager->getRepository(Words::class);
         $res = $db_reader->search_word_db($word, $repository);
 
         if (!$res) {

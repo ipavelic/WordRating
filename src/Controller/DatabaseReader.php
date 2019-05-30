@@ -8,12 +8,14 @@
 
 namespace App\Controller;
 
+use App\Entity\Words;
+
 class DatabaseReader
 {
 
     public function search_word_db($word, $repository)
     {
-        $res = $repository->findOneBy(['word' => $word]);
+        $res = $repository->findOneByWord($word);
         return $res;
     }
 

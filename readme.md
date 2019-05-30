@@ -38,5 +38,6 @@ Result:
 ####Future extension
 
 If new endpoint needed, add new service in service.yaml and create new searcher logic (current searcher logic in GitHubSeracher.php)
+Table sources in database is added for future extension purpose.
 
 
