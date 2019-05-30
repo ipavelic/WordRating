@@ -4,7 +4,7 @@ JSON API calculates popularity of given word based on ratio between positive and
 
 Implemented endpoint: GitHub issue
 
-###Getting started
+### Getting started
 
 * git clone project from gitHub
 * composer install
@@ -13,7 +13,7 @@ Implemented endpoint: GitHub issue
 
 start working
 
-####Examples
+#### Examples
 
 **http://127.0.0.1:8000/score/?term=rubyonrails**
 

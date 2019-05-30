@@ -7,9 +7,6 @@
     <list default="true" id="4543b79a-b550-4b9f-b305-42f34733b515" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/DatabaseReader.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/DatabaseReader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Controller/WordSearchController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/WordSearchController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Entity/Words.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Entity/Words.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +22,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/WordSearchController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="147">
+              <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
               <folding>
                 <element signature="e#34#55#0#PHP" expanded="true" />
               </folding>
@@ -43,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Controller/DatabaseReader.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="150">
@@ -52,12 +49,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
+              <first_editor relative-caret-position="135">
+                <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
               </first_editor>
               <second_editor />
             </state>
@@ -113,10 +110,10 @@
         <option value="$PROJECT_DIR$/config/services.yaml" />
         <option value="$PROJECT_DIR$/src/Controller/GitHubSearcher.php" />
         <option value="$PROJECT_DIR$/src/Controller/SearchInterface.php" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/src/Controller/WordSearchController.php" />
         <option value="$PROJECT_DIR$/src/Entity/Words.php" />
+        <option value="$PROJECT_DIR$/src/Controller/WordSearchController.php" />
         <option value="$PROJECT_DIR$/src/Controller/DatabaseReader.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -298,12 +295,12 @@
       <workItem from="1558770199542" duration="820000" />
       <workItem from="1558786558467" duration="1785000" />
       <workItem from="1558788893696" duration="935000" />
-      <workItem from="1558807717271" duration="69720000" />
+      <workItem from="1558807717271" duration="73369000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76816000" />
+    <option name="totallyTimeSpent" value="80465000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -437,16 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="40" column="41" selection-start-line="40" selection-start-column="41" selection-end-line="40" selection-end-column="41" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SearchInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -470,8 +457,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/WordSearchController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="147">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
           <folding>
             <element signature="e#34#55#0#PHP" expanded="true" />
           </folding>
@@ -482,6 +469,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="15" column="54" selection-start-line="15" selection-start-column="54" selection-end-line="15" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="135">
+            <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
