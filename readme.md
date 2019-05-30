@@ -1,4 +1,4 @@
-### WordSearcher JSON API
+## WordSearcher JSON API
 
 JSON API calculates popularity of given word based on ratio between positive and total number of results. System implements interface for future extension request.
 
@@ -35,7 +35,7 @@ Result:
 Result:
     {"message":"No results for word barbie"}
     
-####Future extension
+#### Future extension
 
 If new endpoint needed, add new service in service.yaml and create new searcher logic (current searcher logic in GitHubSeracher.php)
 Table sources in database is added for future extension purpose.
