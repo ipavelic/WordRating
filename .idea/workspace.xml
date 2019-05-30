@@ -4,7 +4,11 @@
     <bookmark url="file://$PROJECT_DIR$/src/Controller/SearchInterface.php" line="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4543b79a-b550-4b9f-b305-42f34733b515" name="Default Changelist" comment="" />
+    <list default="true" id="4543b79a-b550-4b9f-b305-42f34733b515" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/word_rating_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/word_rating_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,10 +74,26 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="165">
+              <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="51" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190525124049.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <folding>
+                <element signature="e#64#96#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.env.test">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -81,15 +101,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="195">
               <caret line="19" column="32" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/services.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="22" column="37" selection-start-line="22" selection-start-column="37" selection-end-line="22" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -195,6 +206,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/stopwatch" />
       <path value="$PROJECT_DIR$/vendor/nikic/php-parser" />
       <path value="$PROJECT_DIR$/vendor/symfony/maker-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -250,6 +262,17 @@
               <item name="word_rating_project" type="b2602c69:ProjectViewProjectNode" />
               <item name="word_rating_project" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="word_rating_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="word_rating_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="word_rating_project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="word_rating_project" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Migrations" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -300,12 +323,12 @@
       <workItem from="1558770199542" duration="820000" />
       <workItem from="1558786558467" duration="1785000" />
       <workItem from="1558788893696" duration="935000" />
-      <workItem from="1558807717271" duration="81600000" />
+      <workItem from="1558807717271" duration="82627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88696000" />
+    <option name="totallyTimeSpent" value="89723000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -416,15 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190525124049.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135">
-          <folding>
-            <element signature="e#64#96#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/SearchInterface.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -487,10 +501,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Migrations/Version20190525124049.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <folding>
+            <element signature="e#64#96#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.test">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        <state relative-caret-position="165">
+          <caret line="11" selection-start-line="11" selection-end-line="12" selection-end-column="51" />
         </state>
       </provider>
     </entry>
